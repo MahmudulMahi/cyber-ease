@@ -5,6 +5,8 @@ import Operational from '../Operational/Operational';
 import HeroTwo from '../HeroTwo/HeroTwo';
 import SeamLess from '../Seamless/SeamLess';
 import MembersShips from '../MembersShips/MembersShips';
+import PostEmail from '../PostEmail/PostEmail';
+import Card from '../Card/Card';
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
         <HeroTwo/>
         <SeamLess/>
         <MembersShips/>
+        <Card/>
+        <PostEmail/>
     </div>
   );
 };

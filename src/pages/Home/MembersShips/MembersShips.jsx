@@ -7,8 +7,8 @@ import cardimg4 from "../../../assets/cardIcon/image4.png";
 
 const MembersShips = () => {
   return (
-    <div className=" h-[768px] mt-20 bg-black">
-      <div className="flex text-white justify-evenly pt-12">
+    <div className="lg:h-[800px]  mt-20 bg-black">
+      <div className="flex flex-col md:flex-row items-center text-white justify-evenly pt-3 md:pt-24">
         <div>
           <p
             className="font-poppins font-extrabold text-[60px] leading-[56px] tracking-[0%]
@@ -73,7 +73,7 @@ const MembersShips = () => {
         </button>
       </div>
       <p
-        className="text-white mt-10 font-extrabold text-[35px] leading-[33px] tracking-[0%] text-center flex items-center justify-center
+        className="text-white pb-6 mt-10 font-extrabold text-[35px] leading-[33px] tracking-[0%] text-center flex items-center justify-center
 "
       >
         Our partners and memberships
@@ -88,61 +88,68 @@ const MembersShips = () => {
           to make this data available to our customers and users.
         </p>
       </div> */}
-<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-[85%] mx-auto">
-  <div className="rounded-lg shadow-lg">
-    <div className="flex justify-center">
-      <img
-        src={cardimg1}
-        alt="Card Image"
-        className="object-cover rounded-md"
-      />
-    </div>
-    <hr className="my-4" />
-    <p className="text-center text-white">
-      Morningstar is well known for its intensive research and funds data with global coverage. WSD has a strategic partnership with Morningstar to make this data available to our customers and users.
-    </p>
-  </div>
-  <div className="rounded-lg shadow-lg">
-    <div className="flex justify-center">
-      <img
-        src={cardimg2}
-        alt="Card Image"
-        className="object-cover rounded-md "
-      />
-    </div>
-    <hr className="my-4" />
-    <p className="text-center text-white">
-      The German Structured Securities Association (Bundesverband für strukturierte Wertpapiere, BSW) is the representative body of issuers and service providers.
-    </p>
-  </div>
-  <div className="rounded-lg shadow-lg">
-    <div className="flex justify-center">
-      <img
-        src={cardimg3}
-        alt="Card Image"
-        className="object-cover rounded-md "
-      />
-    </div>
-    <hr className="my-4" />
-    <p className="text-center text-white">
-      SIX Financial Information is a Switzerland-based market data information provider with global coverage. WSD works with SIX to power numerous solutions with realtime market data.
-    </p>
-  </div>
-  <div className="rounded-lg shadow-lg">
-    <div className="flex justify-center">
-      <img
-        src={cardimg4}
-        alt="Card Image"
-        className="object-cover rounded-md "
-      />
-    </div>
-    <hr className="my-4" />
-    <p className="text-center text-white">
-      Refinitiv is a global provider of financial markets data and was formerly part of Thomson Reuters. WSD partners with Refnitiv to make their data available to our customers and users.
-    </p>
-  </div>
-</div>
-
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-[90%] mx-auto pb-6  ">
+        <div className="rounded-lg shadow-lg">
+          <div className="flex justify-center">
+            <img
+              src={cardimg1}
+              alt="Card Image"
+              className="object-cover rounded-md"
+            />
+          </div>
+          <hr className="my-4" />
+          <p className="text-center text-white">
+            Morningstar is well known for its intensive research and funds data
+            with global coverage. WSD has a strategic partnership with
+            Morningstar to make this data available to our customers and users.
+          </p>
+        </div>
+        <div className="rounded-lg shadow-lg">
+          <div className="flex justify-center">
+            <img
+              src={cardimg2}
+              alt="Card Image"
+              className="object-cover rounded-md "
+            />
+          </div>
+          <hr className="my-4" />
+          <p className="text-center text-white">
+            The German Structured Securities Association (Bundesverband für
+            strukturierte Wertpapiere, BSW) is the representative body of
+            issuers and service providers.
+          </p>
+        </div>
+        <div className="rounded-lg shadow-lg">
+          <div className="flex justify-center">
+            <img
+              src={cardimg3}
+              alt="Card Image"
+              className="object-cover rounded-md "
+            />
+          </div>
+          <hr className="my-4" />
+          <p className="text-center text-white">
+            SIX Financial Information is a Switzerland-based market data
+            information provider with global coverage. WSD works with SIX to
+            power numerous solutions with realtime market data.
+          </p>
+        </div>
+        <div className="rounded-lg shadow-lg">
+          <div className="flex justify-center">
+            <img
+              src={cardimg4}
+              alt="Card Image"
+              className="object-cover rounded-md "
+            />
+          </div>
+          <hr className="my-4" />
+          <p className="text-center text-white">
+            Refinitiv is a global provider of financial markets data and was
+            formerly part of Thomson Reuters. WSD partners with Refnitiv to make
+            their data available to our customers and users.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

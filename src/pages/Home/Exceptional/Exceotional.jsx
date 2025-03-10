@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Exceotional = () => {
   return (
-    <div className="max-w-[1200px] mx-auto mt-10">
+    <div className="w-[90%] mx-auto mt-10 md:mt-20">
       <p
         className="font-semibold text-[40px] leading-[56px] tracking-[0%]
 "

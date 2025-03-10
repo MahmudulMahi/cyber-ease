@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const SeamLess = () => {
   return (
-    <div className="max-w-[1200px] mx-auto mt-10">
+    <div className="w-[90%] mx-auto mt-10 md:mt-20">
       <p
         className="font-semibold text-[40px] leading-[56px] tracking-[0%]
 "
@@ -13,8 +13,7 @@ const SeamLess = () => {
           className=" font-semibold text-[60px] leading-[56px] tracking-[0%] text-[#00643C]
 "
         >
-          Straight-Through
-        </span>
+          Straight-Through </span>
         Processing
       </p>
       <p className="mt-4 text-[rgba(0,0,0,0.82)]">

@@ -6,7 +6,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 const HeroTwo = () => {
   return (
     <div
-      className="relative bg-cover bg-center h-[628px] mt-20"
+      className="relative bg-cover bg-center h-[400px] md:h-[628px] mt-10 md:mt-20"
       style={{ backgroundImage: `url(${background})` }}
     >
  
