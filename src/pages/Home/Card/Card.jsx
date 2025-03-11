@@ -42,7 +42,7 @@ const Card = () => {
             />
 
             {/* Content Card */}
-            <div className="absolute bottom-0 left-3 md:left-2 lg:left-4  right-4 transform bg-white w-11/12  py-4 px-6 rounded-t-lg text-center shadow-md">
+            <div className="absolute bottom-0 left-3 md:left-2 lg:left-4 2xl:left-5  right-4 transform bg-white w-11/12  py-4 px-6 rounded-t-lg text-center shadow-md">
               <p className="text-sm text-gray-500">{post.date}</p>
               <h3 className="text-lg font-semibold">{post.title}</h3>
             </div>
