@@ -10,7 +10,7 @@ const Opsition = () => {
       <div className="absolute lg:w-[40%] lg:left-52 top-0 mx-auto space-y-8">
         
         {/* Alex Carter */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
+        <div className="bg-white p-6 rounded-lg shadow-md pb-1">
         <button className='bg-green-900 text-white px-10 py-3 rounded-full mb-3'>Executive Committe</button>
           <h2 className="text-2xl font-semibold">Alex Carter</h2>
           <p className="text-lg text-gray-600">Chief Executive Officer</p>
