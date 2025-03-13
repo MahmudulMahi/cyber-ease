@@ -8,7 +8,7 @@ import cardimg4 from "../../../assets/cardIcon/image4.png";
 const MembersShips = () => {
   return (
     <div className="lg:h-[800px]  mt-20 bg-black">
-      <div className="flex flex-col md:flex-row items-center text-white justify-evenly pt-3 md:pt-24">
+      <div className="flex flex-col md:flex-row items-center gap-4 text-white justify-evenly pt-3 md:pt-24">
         <div>
           <p
             className="font-poppins font-extrabold text-[60px] leading-[56px] tracking-[0%]

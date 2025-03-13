@@ -4,6 +4,8 @@ import InFo from './InFo/InFo';
 import OurTeam from './OurTeam/OurTeam';
 import Opsition from './Opsition/Opsition';
 import Financial from './Financial/Financial';
+import ESGSection from './ESGSection/ESGSection';
+import PostEmail from '../../PostEmail/PostEmail';
 
 const About = () => {
   return (
@@ -13,6 +15,8 @@ const About = () => {
         <OurTeam></OurTeam>
         <Opsition></Opsition>
         <Financial></Financial>
+        <ESGSection></ESGSection>
+        <PostEmail></PostEmail>
     </div>
   );
 };

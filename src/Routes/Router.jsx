@@ -6,6 +6,7 @@ import Main from "../LayOut/Main";
 import Home from "../pages/Home/Home/Home";
 import About from "../pages/Home/About/About/About";
 import Tech from "../pages/Tech/Tech/Tech";
+import Contact from "../pages/Contact/Contact";
 
   export const router = createBrowserRouter([
     {
@@ -25,6 +26,11 @@ import Tech from "../pages/Tech/Tech/Tech";
         {
             path:'/technology',
             element:<Tech></Tech>
+
+        },
+        {
+            path:'/contact',
+            element:<Contact></Contact>
 
         }
       ]

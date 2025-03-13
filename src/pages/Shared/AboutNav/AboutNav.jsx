@@ -22,6 +22,7 @@ const AboutNav = () => {
   }, []);
 
   const navItems = [
+    { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Technology", path: "/technology" },
     { name: "Contact", path: "/contact" },
@@ -29,19 +30,19 @@ const AboutNav = () => {
 
   return (
     <div
-      className="relative bg-cover bg-center h-[768px]"
+      className="relative  bg-cover bg-center h-[768px]"
       style={{ backgroundImage: `url(${background})` }}
     >
       {/* Navbar with dynamic opacity */}
       <nav
         className={`absolute top-0 left-0 w-full text-white py-4 px-6 transition-all duration-300  bg-opacity-${opacity} mt-5 z-50`}
       >
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="md:container mx-auto flex justify-between items-center">
           {/* Logo */}
-          <img src={navicon} alt="Logo" />
+          <img src={navicon} alt="Logo" className="hidden md:block" />
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex gap-6 text-black bg-white px-14 py-3 rounded-full">
+          <div className="hidden md:flex gap-3 text-black bg-white px-12 py-2 rounded-full">
             {navItems.map((item) => (
               <Link
                 key={item.name}
@@ -81,12 +82,12 @@ const AboutNav = () => {
       </nav>
 
       {/* Centered Content */}
-      <div className="flex flex-col lg:flex-row justify-center items-center h-full text-center px-4 md:px-14 py-24 bg-black bg-opacity-50">
+      <div className="flex flex-col lg:flex-row justify-center items-center h-full text-center px-1 md:px-14 py-24 bg-black bg-opacity-20">
         <div>
           <img src={mainicon} alt="Main Icon" className="h-24 mb-4 lg:mr-28" />
         </div>
         <div className="text-white max-w-3xl">
-          <p className="text-4xl font-thin mb-2">
+          <p className="text-4xl 2xl:text-5xl font-light mb-2">
             Discover Seamless Automation for Structured Products from Start to Finish
           </p>
           <p className="opacity-60 pt-5">

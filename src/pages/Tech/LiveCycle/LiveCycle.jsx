@@ -3,11 +3,11 @@ import rightImage from "../../../assets/live.png";
 
 const LiveCycle = () => {
   return (
-    <div className="bg-black text-white py-10 px-5">
+    <div className="bg-black text-white py-10 px-2">
       <div className="w-[90%] mx-auto flex flex-col-reverse md:flex-row items-center gap-10 lg:gap-56">
         {/* Left Content */}
         <div className="w-full lg:w-1/2">
-          <button className="bg-green-600 text-white px-6 py-2 rounded-full font-medium">
+          <button className="bg-green-600 text-white px-2 md:px-6 py-2 rounded-full font-medium">
             Structured Products
           </button>
 
