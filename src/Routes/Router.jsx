@@ -7,6 +7,8 @@ import Home from "../pages/Home/Home/Home";
 import About from "../pages/Home/About/About/About";
 import Tech from "../pages/Tech/Tech/Tech";
 import Contact from "../pages/Contact/Contact";
+import NotFoundPage from "../pages/Shared/NotFoundPage";
+
 
   export const router = createBrowserRouter([
     {
@@ -33,8 +35,11 @@ import Contact from "../pages/Contact/Contact";
             element:<Contact></Contact>
 
         }
-      ]
 
-      
+      ]   
     },
+    {
+      path: "*", 
+      element: <NotFoundPage></NotFoundPage> ,
+    }
   ]);

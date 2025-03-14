@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import AboutNav from '../../../Shared/AboutNav/AboutNav';
 import InFo from './InFo/InFo';
 import OurTeam from './OurTeam/OurTeam';
@@ -6,8 +6,13 @@ import Opsition from './Opsition/Opsition';
 import Financial from './Financial/Financial';
 import ESGSection from './ESGSection/ESGSection';
 import PostEmail from '../../PostEmail/PostEmail';
+import { changeTitleAndFavicon } from '../../../../ChangeTitle/ChangeTitle';
 
 const About = () => {
+    useEffect(() => {
+      
+      changeTitleAndFavicon('about');
+    }, []);
   return (
     <div>
         {/* <AboutNav></AboutNav> */}
