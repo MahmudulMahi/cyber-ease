@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
-import background from "../../../assets/image.png";
+import background from "/image/home-hero.png";
 import navicon from "../../../assets/sdvgf 1.png";
 import mainicon from "../../../assets/mainicon.png";
 
@@ -82,26 +82,20 @@ const AboutNav = () => {
       </nav>
 
       {/* Centered Content */}
-      <div className="flex flex-col lg:flex-row justify-center items-center h-full text-center px-1 md:px-14 py-24 bg-black bg-opacity-20">
+      <div className="flex  flex-col lg:flex-row  items-center h-full text-center px-1 md:px-24 lg:px-9 pt-32 md:pt-52 lg:pt-0 ">
         <div>
           <img src={mainicon} alt="Main Icon" className="h-24 mb-4 lg:mr-28" />
         </div>
-        <div className="text-white max-w-3xl">
-          <p className="text-4xl 2xl:text-5xl font-light mb-2">
-            Discover Seamless Automation for Structured Products from Start to Finish
+        <div className="text-white max-w-sm md:max-w-xl lg:max-w-xl 2xl:max-w-3xl ">
+          <p className="text-4xl 2xl:text-5xl font-bold mb-2 tracking-wide">
+          Cyberease - Your Trusted
+          Cyber Security Partner
           </p>
-          <p className="opacity-60 pt-5">
-            At Cyberease, we power the structured products value chain, serving as an essential part
-            of our clients' operations. Backed by a global team with decades of specialized
-            expertise, we drive automation across the structured products industry worldwide.
+          <p className=" pt-5">
+          In today's digital landscape, cybersecurity is not an option—it's a necessity. At Cyberease,we provide cutting-edge cybersecurity and IT solutions to protect your business from ever-evolving threats.Our team of experts ensures your systems remain secure, compliant, and resilient against cyberattacks.
           </p>
         </div>
-        <div className="space-y-2 ml-7 hidden lg:block">
-          <div className="w-[5px] h-[5px] bg-white rounded-full"></div>
-          <div className="w-[5px] h-[5px] bg-white rounded-full"></div>
-          <div className="w-[5px] h-[5px] bg-white rounded-full"></div>
-          <div className="w-[5px] h-[5px] bg-white rounded-full"></div>
-        </div>
+
       </div>
     </div>
   );

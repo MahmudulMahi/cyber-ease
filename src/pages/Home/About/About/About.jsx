@@ -7,6 +7,7 @@ import Financial from './Financial/Financial';
 import ESGSection from './ESGSection/ESGSection';
 import PostEmail from '../../PostEmail/PostEmail';
 import { changeTitleAndFavicon } from '../../../../ChangeTitle/ChangeTitle';
+import AboutNavber from '../../../Shared/AboutNavber/AboutNavber';
 
 const About = () => {
     useEffect(() => {
@@ -16,6 +17,7 @@ const About = () => {
   return (
     <div>
         {/* <AboutNav></AboutNav> */}
+        <AboutNavber></AboutNavber>
         <InFo></InFo>
         <OurTeam></OurTeam>
         <Opsition></Opsition>

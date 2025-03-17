@@ -1,6 +1,6 @@
 const TestimonialSection = () => {
     return (
-      <div className="w-[90%] mx-auto text-center py-20 px-4">
+      <div className="w-[90%] mx-auto text-center py-10 md:py-28 px-4">
         {/* Statistics Section */}
         <div className="flex flex-col md:flex-row justify-evenly gap-10 text-gray-900 font-poppins">
           <div>

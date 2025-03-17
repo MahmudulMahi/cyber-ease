@@ -18,8 +18,8 @@ const PostEmail = () => {
   };
 
   return (
-    <div className="flex items-center justify-center bg-black text-white  ">
-      <div className="w-[90%]  mx-auto flex flex-col lg:flex-row items-center pt-20 pb-20 gap-6">
+    <div className="flex items-center justify-center bg-black text-white   ">
+      <div className="w-[90%]  mx-auto flex flex-col lg:flex-row items-center pt-24 pb-24 gap-6">
         {/* Left Side Content */}
         <div className=" mb-6 md:mb-0">
           <h2 className="text-2xl md:text-3xl font-light">

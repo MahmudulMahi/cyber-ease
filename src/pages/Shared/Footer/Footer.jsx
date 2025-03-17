@@ -11,7 +11,7 @@ import footerIcon from "../../../assets/sdvg 1.png";
 const Footer = () => {
   return (
     <footer className="bg-green-900 text-white py-6 md:py-10">
-      <div className="w-[90%] lg:w-[85%] mx-auto px-4 md:px-6">
+      <div className="w-[90%]  mx-auto px-4 md:px-6">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row items-center justify-between border-b border-white pb-6 md:pb-10">
           {/* Logo & Contact */}
